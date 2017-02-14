@@ -1,42 +1,133 @@
-html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-    background-color: #f4511e;
+/*General*/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #434343;
+  background: #647986;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #778492;
+}
+a {
+  color: #7F81B1;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #5f6b77;
 }
 
-h1 {
-    font-size: 90px;
+
+/*Header*/
+.header {
+    padding: 30px;
+    background-color: #304553; 
 }
 
-h2 {
-    font-size: 35px
+.header .profile-content .name {
+    font-weight:900;
+    color: floralwhite;
+    font-size: 50px;
 }
 
-.fa-github {
-    font-size: 35px;
-    padding-right: 10px
+.header .profile-content .desc {
+    font-weight: lighter;
+    color: floralwhite
 }
 
-.jumbotron {
-  background-color: #f4511e; /* Orange */
-  color: #ffffff;
-  padding: 100px 25px 3px;
-    text-align: center
+/*Main Content*/
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.section {
+  margin-bottom: 30px;
+}
+.section .section-inner {
+  background-color: floralwhite;
+  padding: 30px;
+}
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #29526D;
+  font-size: 24px;
+}
+
+.title {
+    color: #486F88;
+}
+
+/*Languages*/
+
+ .skillset .item {
+    margin-bottom: 30px;
+}
+
+ .skillset .level-title {
+  font-size: 16px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 10;
+  color: #486F88;
+}
+ .skillset .level-title .level-label {
+  color: #708FA3;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Lato", arial, sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.progress-bar {
+    background: #7F81B1;
+
+}
+
+/*Education*/
+.education .title {
+    font-size: 16px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.university {
+    font-size: 14px;
+    color: #7F81B1;
+    font-family: "Lato", arial, sans-serif;
+    font-weight: 400;
+}
+
+/*Projects*/
+
+.desc {
+    padding-top: 30px;
+}
+
+.experience .title {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+.year {
+    color: #708FA3;
+    font-family: "Lato", arial, sans-serif;
+    font-weight: 400;
+}
     
-}
-
-.container-fluid {
-    text-align: left;
-    padding: 150px 25px ;
-    padding-top: 3px
-
-}
-
-.bg-grey {
-  background-color:ghostwhite;
-}
-
-.bg-white {
-    background-color: white;
-}
