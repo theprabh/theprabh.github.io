@@ -1,9 +1,14 @@
 /*General*/
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  color: #434343;
-  background: #647986;
+
+  background: #FF7346;
   font-size: 16px;
+    background: linear-gradient(45deg, #FF926F, #FF7346, #FF541E);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 60s ease infinite;
+	-moz-animation: Gradient 60s ease infinite;
+	animation: Gradient 60s ease infinite;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,25 +31,89 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #5f6b77;
+  color: aliceblue;
 }
 
+.hidden-name {
+    display: none
+}
+
+.hidden-title {
+    display: none
+}
+
+.hidden-button {
+    display: none
+}
 
 /*Header*/
 .header {
-    padding: 30px;
-    background-color: #304553; 
+    height: 100vh;
+	background: linear-gradient(45deg, #6EC1F2, #18a2f0, #0696EB);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 60s ease infinite;
+	-moz-animation: Gradient 60s ease infinite;
+	animation: Gradient 60s ease infinite;
+ 
 }
 
+ @-webkit-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes Gradient { 
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+
 .header .profile-content .name {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 5px;
     font-weight:900;
     color: floralwhite;
-    font-size: 50px;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 30vh;
+    
 }
 
 .header .profile-content .desc {
     font-weight: lighter;
-    color: floralwhite
+    color: floralwhite;
+    text-align: center
+        
+}
+
+
+.button{
+   padding-left: 50%;
+    padding-top: 35vh;
+    color: aqua
+}
+
+.btn-circle {
+  width: 60px;
+  height: 60px;
+  line-height: 40px; /* adjust line height to align vertically*/
+  padding:0;
+  border-radius: 50%;
+  font-size: 60px;
+  color: #18a2f0;
+    -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+.btn-circle:hover {
+    color: #0985CE;
 }
 
 /*Main Content*/

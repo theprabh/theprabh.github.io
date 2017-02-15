@@ -8,7 +8,9 @@
     
     <!-- Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     
     <!-- Title -->
     <title>Prabhjot Mattu | Portfolio</title>
@@ -32,15 +34,30 @@
     <!-- Header -->
     <header class="header">
       <div class="container"> 
-        <div class="profile-content">
-            <h1 class="name">Prabhjot Mattu</h1>
-            <h2 class="desc">Software Developer | Android Developer</h2>
-        </div>
+            <div class="profile-content">
+                <div class="hidden-name">
+                    <h1 class="name">Prabhjot Mattu</h1>
+                </div>
+                <div class="hidden-title">
+                    <h2 class="desc">Software Developer | Android Developer</h2>
+                </div>
+            </div>
+            
+        <div class="hidden-button">
+            <div class="button">
+                <a href="#main" class="btn btn-default btn-circle"><i class="fa fa-angle-down"></i></a>
+            </div>
+
+        
+     </div>
       </div>
     </header>
+     
+
       
     <!-- Main Content -->
-    <div class="container sections-wrapper">
+    <div id="main" class="container sections-wrapper">
+       
         <div class="row">
             <!-- Side Bar -->
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
@@ -261,6 +278,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>

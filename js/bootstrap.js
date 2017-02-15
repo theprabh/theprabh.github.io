@@ -25,6 +25,39 @@ if (typeof jQuery === 'undefined') {
  * ======================================================================== */
 
 
+//smooth scroll
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});
+
+// fade on page load
+
+$(document).ready(function () {
+    $('div.hidden-name').fadeIn(2000).removeClass('hidden-name');
+});
+
+$(document).ready(function () {
+    $('div.hidden-title').fadeIn(4000).removeClass('hidden-title');
+});
+
+$(document).ready(function () {
+    $('div.hidden-button').fadeIn(4000).removeClass('hidden-button');
+});
+
+
+
+
 +function ($) {
   'use strict';
 
@@ -2375,3 +2408,4 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
