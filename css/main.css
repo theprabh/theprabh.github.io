@@ -1,14 +1,8 @@
 /*General*/
 body {
   font-family: 'Source Sans Pro', sans-serif;
-
-  background: #FF7346;
+  background: #D2EDFD;
   font-size: 16px;
-    background: linear-gradient(45deg, #FF926F, #FF7346, #FF541E);
-	background-size: 600% 600%;
-	-webkit-animation: Gradient 60s ease infinite;
-	-moz-animation: Gradient 60s ease infinite;
-	animation: Gradient 60s ease infinite;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,7 +17,7 @@ h6 {
   color: #778492;
 }
 a {
-  color: #7F81B1;
+  color: #E1BCB0;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -31,7 +25,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: aliceblue;
+  color: black;
 }
 
 .hidden-name {
@@ -49,7 +43,7 @@ a:hover {
 /*Header*/
 .header {
     height: 100vh;
-	background: linear-gradient(45deg, #6EC1F2, #18a2f0, #0696EB);
+	background: linear-gradient(45deg, #6EC1F2, #6EC1F2, #6EC1F2);
 	background-size: 600% 600%;
 	-webkit-animation: Gradient 60s ease infinite;
 	-moz-animation: Gradient 60s ease infinite;
@@ -95,7 +89,6 @@ a:hover {
 .button{
    padding-left: 50%;
     padding-top: 35vh;
-    color: aqua
 }
 
 .btn-circle {
@@ -105,7 +98,7 @@ a:hover {
   padding:0;
   border-radius: 50%;
   font-size: 60px;
-  color: #18a2f0;
+  color: #6EC1F2;
     -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -113,7 +106,7 @@ a:hover {
 }
 
 .btn-circle:hover {
-    color: #0985CE;
+    color: #6EC1F2;
 }
 
 /*Main Content*/
@@ -125,18 +118,18 @@ a:hover {
   margin-bottom: 30px;
 }
 .section .section-inner {
-  background-color: floralwhite;
+  background-color: white;
   padding: 30px;
 }
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #18a2f0;
+  color: #6EC1F2;
   font-size: 24px;
 }
 
 .title {
-    color: #486F88;
+    color: #6EC1F2;
 }
 
 /*Languages*/
@@ -150,10 +143,10 @@ a:hover {
   position: relative;
   margin-top: 0;
   margin-bottom: 10;
-  color: #486F88;
+  color: #6EC1F2;
 }
  .skillset .level-title .level-label {
-  color: #708FA3;
+  color: #99D5F8;
   font-size: 14px;
   font-weight: 400;
   font-family: "Lato", arial, sans-serif;
@@ -163,7 +156,7 @@ a:hover {
 }
 
 .progress-bar {
-    background: #7F81B1;
+    background: #FFDCD1;
 
 }
 
@@ -177,7 +170,7 @@ a:hover {
 
 .university {
     font-size: 14px;
-    color: #7F81B1;
+    color: #E1BCB0;
     font-family: "Lato", arial, sans-serif;
     font-weight: 400;
 }
@@ -195,7 +188,7 @@ a:hover {
     line-height: 1.5;
 }
 .year {
-    color: #708FA3;
+    color: #E1BCB0;
     font-family: "Lato", arial, sans-serif;
     font-weight: 400;
 }
