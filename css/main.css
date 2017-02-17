@@ -1,7 +1,7 @@
 /*General*/
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background: #D2EDFD;
+  background: #E1BCB0;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -42,13 +42,8 @@ a:hover {
 
 /*Header*/
 .header {
-    height: 100vh;
-	background: linear-gradient(45deg, #6EC1F2, #6EC1F2, #6EC1F2);
-	background-size: 600% 600%;
-	-webkit-animation: Gradient 60s ease infinite;
-	-moz-animation: Gradient 60s ease infinite;
-	animation: Gradient 60s ease infinite;
- 
+    height: 50vh;
+	background: #99D5F8;
 }
 
  @-webkit-keyframes Gradient {
@@ -74,7 +69,7 @@ a:hover {
     color: floralwhite;
     font-size: 100px;
     text-align: center;
-    padding-top: 30vh;
+    padding-top: 10vh;
     
 }
 
@@ -85,10 +80,14 @@ a:hover {
         
 }
 
+.header2 {
+    height: 50vh;
+	background: #99D5F8;
+}
 
 .button{
    padding-left: 50%;
-    padding-top: 35vh;
+    padding-top: 25vh;
 }
 
 .btn-circle {
