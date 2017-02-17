@@ -1,7 +1,7 @@
 /*General*/
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background: #E1BCB0;
+  background: #FFDCD1;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,7 +17,7 @@ h6 {
   color: #778492;
 }
 a {
-  color: #E1BCB0;
+  color: #99D5F8;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -25,7 +25,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: black;
+  color: #6EC1F2;
 }
 
 .hidden-name {
