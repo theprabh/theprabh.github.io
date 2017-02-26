@@ -28,21 +28,10 @@ a:hover {
   color: #6EC1F2;
 }
 
-.hidden-name {
-    display: none
-}
-
-.hidden-title {
-    display: none
-}
-
-.hidden-button {
-    display: none
-}
 
 /*Header*/
 .header {
-    height: 50vh;
+    height: 300px;
 	background: #99D5F8;
 }
 
@@ -69,7 +58,7 @@ a:hover {
     color: floralwhite;
     font-size: 100px;
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 20px
     
 }
 
@@ -80,20 +69,18 @@ a:hover {
         
 }
 
-.header2 {
-    height: 50vh;
-	background: #99D5F8;
+.go-top .btn{
+   position: fixed;
+   bottom: 1em;
+    right: 2.5em;
+    padding: 10px;
+    
 }
 
-.button{
-   padding-left: 50%;
-    padding-top: 25vh;
-}
-
-.btn-circle {
+.go-top .btn-circle {
   width: 60px;
   height: 60px;
-  line-height: 40px; /* adjust line height to align vertically*/
+  line-height: 0px; /* adjust line height to align vertically*/
   padding:0;
   border-radius: 50%;
   font-size: 60px;
@@ -104,7 +91,7 @@ a:hover {
   -o-transition: all 0.4s ease-in-out;
 }
 
-.btn-circle:hover {
+.go-top .btn-circle:hover {
     color: #6EC1F2;
 }
 

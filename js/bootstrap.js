@@ -26,34 +26,23 @@ if (typeof jQuery === 'undefined') {
 
 
 //smooth scroll
-$(document).ready(function(){
-	$('a[href^="#"]').on('click',function (e) {
-	    e.preventDefault();
+$(document).ready(function() {
+            // Show or hide the sticky footer button
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('.go-top').fadeIn(500);
+                } else {
+                    $('.go-top').fadeOut(300);
+                }
+            });
 
-	    var target = this.hash;
-	    var $target = $(target);
+            // Animate the scroll to top
+            $('.go-top').click(function(event) {
+                event.preventDefault();
 
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 900, 'swing', function () {
-	        window.location.hash = target;
-	    });
-	});
-});
-
-// fade on page load
-
-$(document).ready(function () {
-    $('div.hidden-name').fadeIn(2000).removeClass('hidden-name');
-});
-
-$(document).ready(function () {
-    $('div.hidden-title').fadeIn(4000).removeClass('hidden-title');
-});
-
-$(document).ready(function () {
-    $('div.hidden-button').fadeIn(4000).removeClass('hidden-button');
-});
+                $('html, body').animate({scrollTop: 0}, 300);
+            })
+        });
 
 
 
