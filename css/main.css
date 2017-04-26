@@ -51,6 +51,20 @@ a:hover {
 		100%{background-position:0% 50%}
 	}
 
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
 .header .profile-content .name {
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 5px;
