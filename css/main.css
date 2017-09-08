@@ -29,6 +29,14 @@ a:hover {
 }
 
 
+.featured-image {
+    max-height: 50%;
+    max-width: 50%;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+
 /*Header*/
 .header {
     height: 300px;
