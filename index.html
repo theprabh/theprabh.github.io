@@ -27,6 +27,16 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+            $("#flip").click(function(){
+             $("#panel").slideDown("slow");
+    });
+});
+</script>
+
   </head>
   
   <body>
@@ -46,8 +56,9 @@
 
     <!-- Main Content -->
     <div id="main" class="container sections-wrapper">
-      
-        <div class="row">
+     
+        
+           <div class="row">
             <!-- Side Bar -->
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
                 <!-- Contact Me -->
@@ -195,10 +206,10 @@
                       <h2 class="heading">About Me</h2>
                       <div class="content">
                           <p>
-                                Hi my name is Prabhjot Mattu. I was born in Santa Clara, California in 1997 and lived there until I moved to Dallas, Texas when I was 7. Both of my parents were born in Punjab, a state in northern India, and immigrated to the US in the early 90's. I also have 2 dogs, a 7 year old Chihuahua and a 1 year old Rottweiler. I went to Plano East High School and graduated in 2015. Since then I have attended Collin College and  transferred to UTD in Fall 2017 to get my degreee in Computer Science. One of my hobbies is watching and playing sports. My favorite sport is basketball (Go Lakers!) and I try to get pickup games going among friends at least once a week. I am also a part of a flag football team formed with my friends that plays in the Allen Recreational Sports League. Another hobby of mine is music as I love listening to it and collecting it (I have a decent sized vinyl collection).
-
 
                           </p>
+                           <div id="flip">Click to slide down panel</div>
+        <div id="panel">Hello world!</div>
                       </div>
                   </div>
                    
