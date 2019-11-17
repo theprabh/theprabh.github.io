@@ -17,7 +17,7 @@ h6 {
   
 }
 a {
-  color: #42B2A6;
+  color: #789fbb;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -25,7 +25,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #005D53;
+  color: #1e698d;
 }
 
 
@@ -40,7 +40,7 @@ a:hover {
 /*Header*/
 .header {
     height: 300px;
-	background: #009688;
+	background: #1e698d;
 }
 
  @-webkit-keyframes Gradient {
@@ -132,12 +132,12 @@ a:hover {
 .section .heading {
   margin-top: 0;
   margin-bottom: 30px;
-  color: #009688;
+  color: #1e698d;
   font-size: 24px;
 }
 
 .title {
-    color: #20A294;
+    color: #789fbb;
 }
 
 /*Languages*/
@@ -151,10 +151,10 @@ a:hover {
   position: relative;
   margin-top: 0;
   margin-bottom: 10;
-  color: #20A294;
+  color: #789fbb;
 }
  .skillset .level-title .level-label {
-  color: #42B2A6;
+  color: #789fbb;
   font-size: 14px;
   font-weight: 400;
   font-family: "Lato", arial, sans-serif;
@@ -164,7 +164,7 @@ a:hover {
 }
 
 .progress-bar {
-    background: #9EE6DE;
+    background: #789fbb;
 
 }
 
@@ -178,7 +178,7 @@ a:hover {
 
 .university {
     font-size: 14px;
-    color: #69CDC2;
+    color: #789fbb;
     font-family: "Lato", arial, sans-serif;
     font-weight: 400;
 }
@@ -196,7 +196,7 @@ a:hover {
     line-height: 1.5;
 }
 .year {
-    color: #69CDC2;
+    color: #789fbb;
     font-family: "Lato", arial, sans-serif;
     font-weight: 400;
 }
