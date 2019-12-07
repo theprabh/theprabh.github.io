@@ -1,309 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Source+Sans+Pro" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- Title -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Prabhjot Mattu</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- CSS -->
-    <link href="css/main.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("#flip").click(function() {
-                $("#panel").slideDown("slow");
-            });
-        });
-
-    </script>
-
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="profile-content">
+    <div id="index-banner" class="parallax-container" style="height: vh;">
+        <div class="parallax"><img src="space.jpg" alt="Unsplashed background img 1"></div>
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <h1 class="header center text-lighten-2">Prabhjot Mattu</h1>
+                <div class="row center">
+                    <h3 class="header col s12 light">Software Developer</h3>
+                </div>
+                <br><br>
 
-                <h1 class="name">Prabhjot Mattu</h1>
-
-
-                <h2 class="desc">Software Developer</h2>
             </div>
         </div>
-    </header>
 
-    <!-- Main Content -->
-    <div id="main" class="container sections-wrapper">
+    </div>
 
+    <div class="container">
+        <div class="section">
 
-        <div class="row">
-            <!-- Side Bar -->
-            <div class="secondary col-md-4 col-sm-12 col-xs-12">
-                <!-- Contact Me -->
-                <aside class="contact aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Contact Me</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li>
-                                    <i class="fa fa-map-marker"></i>
-                                    <span class="sr-only">Location:</span>
-                                    <a href="https://www.google.com/maps/place/Dallas,+TX/@32.8203525,-97.0115281,10z/data=!3m1!4b1!4m5!3m4!1s0x864c19f77b45974b:0xb9ec9ba4f647678f!8m2!3d32.7766642!4d-96.7969879">&nbsp;&nbsp;Dallas, TX</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope-o"></i>
-                                    <span class="sr-only">Email:</span>
-                                    <a href="mailto:theprabh@gmail.com">prabhjotsmattu@gmail.com</a>
-                                </li>
-                                <li>
-                                    <i class="fa fa-github"></i>
-                                    <span class="sr-only">Github:</span>
-                                    <a href="https://github.com/theprabh">github.com/theprabh</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </aside>
-                <!-- Languages -->
-                <aside class="languages aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Languages</h2>
-                        <div class="content">
-                            <div class="skillset">
-                                <!-- Java -->
-                                <div class="item">
-                                    <h3 class="level-title">
-                                        Java
-                                        <span class="level-label" data-orginal-title title>Intermediate</span>
-                                    </h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 50%">
-                                            <span class="sr-only">55% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <!-- JavaScript -->
-                                <div class="item">
-                                    <h3 class="level-title">
-                                        JavaScript
-                                        <span class="level-label" data-orginal-title title>Beginner</span>
-                                    </h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 25%"></div>
-                                    </div>
-                                </div>
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4>About Me</h4>
+                    <p class="left-align light">I am a senior at The University of Texas at Dallas graduating in December 2019 with my Bachelors in Computer Science and am currently looking for a full time job. I have always loved creating and building things, starting from building computers to now creating websites and mobile apps.</p>
 
-                                <!-- Swift -->
-                                <div class="item">
-                                    <h3 class="level-title">
-                                        Swift
-                                        <span class="level-label" data-orginal-title title>Intermediate</span>
-                                    </h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 50%">
-                                            <span class="sr-only">55% Complete</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Python -->
-                                <div class="item">
-                                    <h3 class="level-title">
-                                        Python
-                                        <span class="level-label" data-orginal-title title>Intermediate</span>
-                                    </h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 50%"></div>
-                                    </div>
-                                </div>
+                    <p class="left-align light">I have intermediate proficiency in Java, Swift, and HTML as well as experience in Python, SQL, and JavaScript. I also have experience working in a group setting using git for project management.</p>
 
-                                <!-- C# -->
-                                <div class="item">
-                                    <h3 class="level-title">
-                                        C#
-                                        <span class="level-label" data-orginal-title title>Beginner</span>
-                                    </h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 25%"></div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </aside>
-                <!-- Technologys and Frameworks -->
-                <aside class="techframe aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Technologies &amp; Frameworks</h2>
-                        <div class="content">
-                            <div class="skillset">
-                                <!-- Git  -->
-                                <div class="item">
-                                    <h3 class="level-title">
-                                        Git
-                                        <span class="level-label" data-orginal-title title>Intermediate</span>
-                                    </h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 50%">
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- HTML/CSS -->
-                                <div class="item">
-                                    <h3 class="level-title">
-                                        HTML/CSS
-                                        <span class="level-label" data-orginal-title title>Intermediate</span>
-                                    </h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 50%"></div>
-                                    </div>
-                                </div>
-                                <!-- SQL -->
-                                <div class="item">
-                                    <h3 class="level-title">
-                                        SQL
-                                        <span class="level-label" data-orginal-title title>Intermediate</span>
-                                    </h3>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 40%"></div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </aside>
-                <!-- Education -->
-                <aside class="education aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Education</h2>
-                        <div class="item">
-                            <h3 class="title">
-                                <i class="fa fa-graduation-cap"></i> BA Computer Science <br> <span class="year">(Aug 2017 - Dec 2019)</span>
-                            </h3>
-                            <h4 class="university">
-                                University of Texas at Dallas
-                            </h4>
-                        </div>
-                    </div>
-
-                </aside>
+                    <p class="left-align light">In my personal time I like to go to the gym, play basketball, collect vinyl records, and play video games.</p>
+                </div>
             </div>
-            <!-- Main Column -->
-            <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <!-- About Section -->
-                <section class="about section">
-                    <div class="section-inner">
-                        <h2 class="heading">About Me</h2>
-                        <div class="content">
-                            <p>I am a senior at The University of Texas at Dallas graduating in December 2019 with my Bachelors in Computer Science and am currently looking for a full time job. I have always loved creating and building things, starting from building computers to now creating websites and mobile apps.</p>
-                            <p>I have intermediate proficiency in Java, Swift, and HTML as well as experience in Python, SQL, and JavaScript. I also have experience working in a group setting using git for project management. </p>
-                            <p>In my personal time I like to go to the gym, play basketball, collect vinyl records, and play video games.</p>
-                        </div>
-                    </div>
 
-                </section>
-
-                <!-- Experience Section -->
-
-                <section class="experience section">
-                    <div class="section-inner">
-                        <h2 class="heading">Work Experience</h2>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">
-                                    Capstone Group Project Software Developer -
-                                    <span class="year">State Farm Drivelytics 3.0 (Fall 2019)</span>
-                                </h3>
-                                <ul class="job">
-
-                                    <li>Developed a continuation of State Farm's Drivelytics 2.0 iOS app that tracks how a user drives and gives them a score.</li>
-                                    <li>Refactored the core features and scoring algorithm to be more robust and efficient.</li>
-                                    <li>Added gamification to allow drivers to compete against each other's scores and a chatbot to allow users to get technical support through the app.</li>
-
-                                </ul>
-                            </div>
-                            <div class="item">
-                                <h3 class="title">
-                                    IT Technician -
-                                    <span class="year">Technology Services &amp; Solutions (2016 - 2017)</span>
-                                </h3>
-                                <ul class="job">
-
-                                    <li>Maintained the computer systems of local dental offices by performing weekly server checks and installation of software.</li>
-                                    <li>Provided technical support over the phone and on-site.</li>
-
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-                <!-- Project Section -->
-                <section class="projects section">
-                    <div class="section-inner">
-                        <h2 class="heading">Projects</h2>
-                        <div class="content">
-                            <div class="item featured text-center">
-                                <h3 class="title">Basketball Timekeeper App (iOS/Android)</h3>
-                                <p class="summary">Keeps track of a basketball game</p>
-                                <div class="featured-image">
-
-                                    <img id="left" class="img-responsive" src="assets/images/app1.png" alt="featured project">
-
-
-                                </div>
-                                <div class="desc text-left">
-                                    <p style="text-align:center;">
-                                        An iOS/Android application for keeping track of an ongoing basketball game. Allows you to set team names, add 3, 2, or 1 points, calling timeouts and fouls, and start/stop the game clock. iOS version includes the previous features as well as roster creation, a gamelog using a Swift Realm database, the ability to set half/quarter length, and stat tracking.
-                                    </p>
-                                </div>
-                            </div>
-                            <!--
-                            <hr class="divider">
-                            <div class="item featured text-center">
-                                <h3 class="title"> <a href="eport.html">ePortfolio</a></h3>
-                                <p class="summary">ePortfolio project for PSYC-1300</p>
-
-                            </div>
-                            -->
-                        </div>
-                    </div>
-                </section>
-
-            </div>
         </div>
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-</body>
 
-</html>
+
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h2 class="header col s12 light">Experience</h2>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="dallas.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h2>Capstone Project Software Developer</h2>
+
+                    <div class="col s12 m8">
+                        <br>
+                        <br>
+                        <h5 class="left-align light">Developed a continuation of State Farm's Drivelytics 2.0 iOS app that tracks how a user drives and gives them a score.</h5>
+                        <br>
+                        <br>
+
+                        <h5 class="left-align light">Refactored the core features and scoring algorithm to be more robust and efficient.
+                        </h5>
+                        <br>
+                        <br>
+                        <h5 class="left-align light">Added gamification to allow drivers to compete against each other's scores and a chatbot to allow users to get technical support through the app.
+                        </h5>
+
+                    </div>
+                    <div class="col s12 m4">
+                        <img src="state_farm.png" style="width: 40%;">
+                        <img src="app.png" style="width: 70%">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h2 class="header col s12 light">Skills</h2>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="coding.jpeg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center"><i class="material-icons">code</i></h2>
+                        <h5 class="center">Languages</h5>
+
+                        <p class="center light">Java</p>
+                        <p class="center light">JavaScript</p>
+                        <p class="center light">Swift</p>
+                        <p class="center light">Python</p>
+                        <p class="center light">C#</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center"><i class="material-icons">laptop_mac</i></h2>
+                        <h5 class="center">Technologies</h5>
+
+                        <p class="center light">HTML / CSS</p>
+                        <p class="center light">jQuery</p>
+                        <p class="center light">SQL</p>
+                        <p class="center light">iOS</p>
+                        <p class="center light">Unity</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center"><i class="material-icons">group</i></h2>
+                        <h5 class="center">Development Practices</h5>
+
+                        <p class="center light">Git</p>
+                        <p class="center light">Agile</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h2 class="header col s12 light">Projects</h2>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="projects.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <footer class="page-footer teal">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Company Bio</h5>
+                    <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Settings</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+</body></html>
