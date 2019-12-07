@@ -16,6 +16,14 @@ p {
     line-height: 2rem;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
 .tabs .tab a {
     color: #000;
 }
@@ -87,6 +95,7 @@ p {
 
 footer.page-footer {
     margin: 0;
+    background-color: rgba(53, 116, 204, 0.5);
 }
 
 .background-image {
