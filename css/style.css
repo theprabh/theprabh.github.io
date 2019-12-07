@@ -16,7 +16,38 @@ p {
     line-height: 2rem;
 }
 
+.tabs .tab a {
+    color: #000;
+}
 
+/*Black color to the text*/
+
+.tabs .tab a:hover {
+    background-color: rgba(53, 116, 204, 0.2);
+    color: #000;
+}
+
+/*Text color on hover*/
+
+.tabs .tab a.active {
+    background-color: rgba(53, 116, 204, 0.2);
+    color: #000;
+}
+
+/*Background and text color when a tab is active*/
+
+.tabs .tab a:focus.active {
+    color: #000;
+    /*Custom Text Color While Active*/
+    background-color: rgba(53, 116, 204, 0.2);
+    /*Custom Background Color While Active*/
+}
+
+.tabs .indicator {
+    background-color: #000;
+}
+
+/*Color of underline*/
 
 .parallax-container {
     min-height: 380px;
@@ -59,9 +90,9 @@ footer.page-footer {
 }
 
 .background-image {
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(2px);
 }
